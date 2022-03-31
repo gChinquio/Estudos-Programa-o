@@ -1,0 +1,17 @@
+while(1):
+    v = input().split()
+    x , y = v
+    
+    x = int(x)
+    y = int(y)
+    if(x == 0 or y == 0):
+        break
+    else:
+        if(x > 0 and y > 0):
+            print("primeiro")
+        elif(x < 0 and y > 0):
+            print("segundo")
+        elif(x < 0 and y < 0):
+            print("terceiro")
+        else:
+            print("quarto")
